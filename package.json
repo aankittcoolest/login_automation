@@ -1,0 +1,19 @@
+{
+  "name": "login_automation",
+  "version": "1.0.0",
+  "description": "This application is used to test login functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongoose": "^5.4.1",
+    "nodemailer": "5.0.0",
+    "puppeteer": "~1.11.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "csvtojson": "^2.0.8"
+  }
+}

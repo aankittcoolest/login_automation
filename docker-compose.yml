@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ankit:
+    build:
+      context: .
+    env_file: .env
+    volumes:
+      - .:/usr/src/app
